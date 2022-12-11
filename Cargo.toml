@@ -1,0 +1,29 @@
+[package]
+name = "vislumino"
+authors = ["Filip Szczerek <ga.software@yahoo.com>"]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cgmath = "0.18.0"
+clipboard = "0.5"
+configparser = "3.0.2"
+crossbeam = "0.8.2"
+dirs = "4.0.0"
+ga_image = { path = "ext/ga_image" }
+gl = "0.14.0"
+glium = { version = "0.30.2", default-features = true }
+image = "0.24.5"
+imgui = { git = "https://github.com/imgui-rs/imgui-rs.git", rev = "f43e33c15da7aeaa56bd9201f24aeac7dca61890", features = ["docking", "tables-api"] }
+imgui-glium-renderer = { git = "https://github.com/imgui-rs/imgui-rs.git", rev = "f43e33c15da7aeaa56bd9201f24aeac7dca61890" }
+imgui-winit-support = { git = "https://github.com/imgui-rs/imgui-rs.git", rev = "f43e33c15da7aeaa56bd9201f24aeac7dca61890" }
+native-dialog = { version = "0.6.3", features = ["windows_dpi_awareness", "windows_visual_styles"] }
+strum = { version = "0.24", features = ["derive"] }
+strum_macros = "0.24"
+
+[build-dependencies]
+chrono = "0.4.22"
+embed-resource = "1.3"
