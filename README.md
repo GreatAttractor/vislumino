@@ -26,7 +26,7 @@ Homepage: https://greatattractor.github.io/vislumino
 
 ### 2.1. Planetary projection
 
-Tutorial: [link](https://greatattractor.github.io/vislumino/tutorials/planetary_projection/index.html)
+Tutorial: [link](https://greatattractor.github.io/vislumino-www/tutorials/planetary_projection/index.html)
 
 Demonstration video: [link](https://www.youtube.com/watch?v=w_k1WWCmGpw)
 
